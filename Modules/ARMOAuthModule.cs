@@ -35,12 +35,14 @@ namespace ARMExplorer.Modules
 
         public static string AADClientId
         {
-            get { return Environment.GetEnvironmentVariable("AADClientId"); }
-        }
+//            get { return Environment.GetEnvironmentVariable("AADClientId"); }
+            get { return "9bffd109-93df-48da-965a-d15f1e4c5eee"; }
+    }
 
         public static string AADClientSecret
         {
-            get { return Environment.GetEnvironmentVariable("AADClientSecret"); }
+//            get { return Environment.GetEnvironmentVariable("AADClientSecret"); }
+            get { return "je=:31:Bv?N6wEbVWN4BgT7@b-]2xz4J"; }
         }
 
         public bool Enabled
